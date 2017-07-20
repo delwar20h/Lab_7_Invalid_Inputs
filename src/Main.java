@@ -11,11 +11,16 @@ public class Main {
         String userAnswer = "Y";
 
         String[] playerNames = {"Warren Moon", "Charley Trippi", "Bronco Nagurski", "Brett Favre",
-                "Donovan McNabb", "Rolf Benirschke", "John Elway", "Steve Young", "Drew Brees", "Fran Tarkenton"};
-        String[] playerPosition = {"QB", "HB/QB", "FB", "QB", "QB", "K", "QB", "QB", "QB", "QB"};
+                "Donovan McNabb", "Rolf Benirschke", "John Elway", "Steve Young", "Drew Brees", "Fran Tarkenton",
+        "Larry Fitzgerald" , "Tom Brady", "Dan Marino", "Dan Fouts", "Bart Starr",
+                "Joe Montana" , "Phillip Rivers" , "Peyton Manning" , "Johnny Unitas" , "Barry Sanders"};
+        String[] playerPosition = {"QB", "HB/QB", "FB", "QB", "QB", "K", "QB", "QB", "QB", "QB" ,
+                "WR", "QB", "QB", "QB", "QB", "QB" , "QB" , "QB" , "QB" , "RB"};
         String[] playerTeams = {"Oilers", "Cardinals", "Bears", "Packers", "Eagles",
-                "Chargers", "Broncos", "49ers", "Saints", "Vikings"};
-        int[] gamesPlayed = {208, 99, 97, 302, 167, 121, 234, 169, 233, 246};
+                "Chargers", "Broncos", "49ers", "Saints", "Vikings", "Cardinals", "Patriots",
+                "Dolphins", "Chargers", "Packers" , "49ers" , "Chargers" , "Colts" , "Colts" , "Lions"};
+        int[] gamesPlayed = {208, 99, 97, 302, 167, 121, 234, 169, 233, 246, 202, 237, 242, 181,
+                196, 292, 180, 266, 211, 153};
 
         System.out.println("Football Greats to Wear Jersey Numbers 1-10");
 
